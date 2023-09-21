@@ -1,7 +1,0 @@
-{
-    "database" : "bludb",
-    "password": "YjrKvjaW4WQAR9ov",
-    "username": "dcg82816"
-    "port": 31505,
-    "hostname": "ea286ace-86c7-4d5b-8580-3fbfa46b1c66.bs2io90l08kqb1od8lcg.databases.appdomain.cloud"
-}
