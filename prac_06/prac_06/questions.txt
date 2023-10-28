@@ -1,0 +1,32 @@
+1. What is the PyCharm shortcut key for commenting selected line/s of code?
+    ctrl + /
+2. What is the single most important design principle for designing functions?
+    Function should be reusable
+3. What is the Python keyword for returning a value from a function?
+    return
+4. What are arguments and parameters? What is the difference between them?
+    Parameters are variables declared in a function's definition and act as placeholder for the values the
+    function expects to receive
+    Arguments are the actual expressions or values that are passed to a function when you call it
+    Difference is that parameters are defined in the functions declaration to specify what kind of data the function
+    expects while arguments are the values that are passed when calling a function.
+5. What is the Python function call for generating a random number between 1 and 100?
+    randint()
+6. Name 4 functions we've used in the subject so far (functions we've "called").
+
+7. How many grams of fresh-ground specialty coffee did Lindsay make his coffee with in the lecture video?
+
+Good names
+Write good names for the following functions:
+    1. determine a subject grade based on a given total score
+        calculate_subject_grade
+    2. convert currency from USD to AUD
+        convert_usd_to_aud
+    3. print a report
+        print_report
+    4. calculate the average of a list of numbers
+        calculate_average
+    5. determine if a number is even
+        is_even
+    6.getting a user's salary, making sure that it is not negative
+        get_non_negative_salary
