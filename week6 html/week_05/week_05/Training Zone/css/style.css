@@ -1,0 +1,158 @@
+/*Author: Gichuhi Gakuru
+Date: the current date
+File Name: styles.css*/
+
+body,
+header,
+nav,
+main,
+footer,
+h1,
+div,
+img,
+ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+
+body {
+    /* Add the body selector */
+    background-color: #020000;
+    /* Set the background colour */
+}
+
+/* Closing brace for the body selector */ 
+ img {
+    margin: auto;
+    max-width: 100%;
+    display: block; 
+}
+
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #000;
+    height: 190px; 
+}
+
+ header a img {
+    margin: 0 auto;
+    height: 190px;
+} 
+
+nav {
+    padding: 1%;
+    margin-bottom: 1%;
+    /* Set the margin on all sides of the element:top, right, bottom, left */
+}
+
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    font-size: 1.5em;
+    font-family: 'Francois One', sans-serif;
+    border-top: 1px solid #fff;
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+.mobile {
+    display: block;
+}
+.tablet-desktop {
+    display: none;
+}
+
+.action {
+    font-size: 1.35em;
+    color: #4d08ee;
+    font-weight: bold;
+}
+
+main {
+    clear: left;
+    /* clears a float to the left */
+    background-color: #fff;
+    padding: 2%;
+    font-size: 1.15em;
+    font-family: 'Roboto Slab', serif;
+}
+.tel-link {
+    background-color: #404040;
+    padding: 2%;margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+}
+.tel-link a 
+{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    display: block;
+}
+.hours {
+    margin-left: 10%;
+}
+.round {
+    border-radius: 8px;
+}
+
+#meeting,
+#boardroom,
+#training {
+    margin: 0 2%;
+}
+
+#meeting {
+    clear: left;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    background-color: #f2f2f2;
+    padding: 1% 2%;
+}
+
+#trainingmodules dt {
+    font-weight: bold;
+}
+
+#trainingmodules dd {
+    padding: 0.5% 1% 2% 0;
+}
+
+#contact {
+    text-align: center;
+
+}
+
+#contact h3 a {
+    color: blue;
+    text-decoration: none;
+
+}
+
+footer p {
+    font-size: 0.75em;
+    text-align: center;
+    color: #fff;
+    padding: 0 1em;
+}
+
+footer p a {
+    color: #fff;
+    /* Sets the link colour*/
+    text-decoration: none;
+}

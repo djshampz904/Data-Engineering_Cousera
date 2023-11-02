@@ -1,0 +1,281 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>IT@JCU - CP1406 Web Design and Development</title>
+    <style>
+        /* Add these styles to your existing CSS */
+        .tr1-subjects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .tr2-subjects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .tr1-subjects section {
+            flex: 0 0 calc(50% - 20px);
+            margin: 10px 0;
+            padding: 20px;
+            background-color: #03B3A0;
+            box-sizing: border-box;
+            border: 1px solid #35434f;
+            border-radius: 5px;
+            color: white;
+        }
+
+        .tr2-subjects section {
+            flex: 0 0 calc(50% - 20px);
+            margin: 10px 0;
+            padding: 20px;
+            background-color: #527da4;
+            box-sizing: border-box;
+            border: 1px solid #35434f;
+            border-radius: 5px;
+            color: white;
+
+        }
+
+        /* Clear float for better layout */
+        .clear {
+            clear: both;
+        }
+
+        /* Update footer styles to match the background color */
+        #footer {
+            font-size: 0.75em;
+            text-align: center;
+            color: #fff;
+            padding: 0 1em;
+            background-color: #35434f; /* Match the background color */
+        }
+
+        #footer p {
+            padding-top: 2em;
+            color: gold;
+        }
+
+        #footer ul li {
+            display: inline-block;
+            list-style-type: none;
+            width: 10%;
+            text-align: center;
+            background-color: #35434f;
+            border: none;
+        }
+
+        #footer a {
+            display: inline-block;
+            color: greenyellow;
+            text-align: center;
+            padding: 0.5em 1em;
+            text-decoration: none;
+        }
+
+        /* Clear float after Trimester 1 subjects */
+        .clear {
+            clear: both;
+        }
+
+        body {
+            padding-left: 3em;
+            padding-right: 3em;
+            background-color: #35434f;
+            color: lightcyan;
+            margin: 0;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        header {
+            background-color: #0065C4;
+            margin: 0;
+            padding-top: 3em;
+            padding-bottom: 3em;
+        }
+
+        header h1 {
+            margin: 0;
+            text-align: center;
+            color:
+        }
+
+        nav {
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        nav a {
+            display: block;
+            padding: 1em;
+        }
+
+        nav ul {
+            width: 95%;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav li {
+            display: inline-block;
+            list-style-type: none;
+            width: 20%;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            background-color: #35434f;
+            border: thin darkorange solid;
+        }
+
+        nav li:hover {
+            background-color: #527da4;
+        }
+
+        a {
+            color: #cef0ff;
+        }
+
+        .cta {
+            background-color: darkorange;
+            width: 12em;
+            margin: 1em auto;
+            text-align: center;
+        }
+
+        .cta a {
+            display: block;
+            padding: 1em;
+        }
+
+        #footer {
+            font-size: 0.75em;
+            text-align: center;
+            color: #fff;
+            padding: 0 1em;
+        }
+
+        #footer p {
+            padding-top: 2em;
+            color: gold;
+        }
+
+        #footer ul li {
+            display: inline-block;
+            list-style-type: none;
+            width: 10%;
+            text-align: center;
+            background-color: #35434f;
+            border: none;
+        }
+
+        #footer a {
+            display: inline-block;
+            color: greenyellow;
+            text-align: center;
+            padding: 0.5em 1em;
+            text-decoration: none;
+        }
+
+    </style>
+
+</head>
+
+<body>
+<header>
+    <h1>I am seriously in love with IT@JCU</h1>
+</header>
+<nav>
+    <ul>
+        <li><a href="#">Enrol</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Stories</a></li>
+        <li><a href="#">Subjects</a></li>
+    </ul>
+</nav>
+
+<div id="promoBar">
+    <p class="cta"><a target="_blank"
+                      href="https://course-search.qtac.edu.au/s/search.html?collection=qtac-courses&num_ranks=10&form=course-details&query=information+technology&smeta_i_phrase=James+Cook+University&smeta_r_sand=&smeta_a_sand=%0D%0A%0D%0A2018%2F2019+Admissions+%28Semester+3%2C+2018%3B+Semester+1+and+2%2C+2019%29&smeta_A_sand=IT&smeta_1_sand=312341">Enrol
+        now through QTAC</a></p>
+</div>
+
+<article id="content">
+    <h2>Trimester 1 Subjects</h2>
+    <section class="tr1-subjects">
+        <section>
+            <h3>CP1401 - Programming 1</h3>
+            <p>In this subject, students will learn problem-solving and coding skills to develop solutions to IT-related
+                problems. Students will apply problem-solving techniques including decomposition, flowcharts and
+                algorithm design. Basic programming
+                using Python will be introduced including the use of selection, repetition and functions. This subject
+                forms a foundation for further programming subjects.
+            </p>
+        </section>
+        <section>
+            <h3>CP1402 - Internet Fundamentals</h3>
+            <p>This subject introduces students to Internet standards, architectures, and technologies to develop
+                fundamental knowledge of network devices, network models, and Internet protocols. Students will gain
+                knowledge of the Open Systems Interconnection
+                (OSI) and TCP/IP models, subnetting, switching, routing, LAN and WAN protocols, and network security.
+                Students will gain experience in network design and troubleshooting strategies.
+            </p>
+        </section>
+        <section>
+            <h3>CP1406 - Web Design and Development</h3>
+            <p>This subject is an introduction to Web design and development using modern, standards-driven practices
+                and user-centred design principles. Students will explore how the Web works, considering both good and
+                bad design and the need for following
+                standards and best practices. Students will learn to use client-side technologies including HTML, CSS
+                and JavaScript to develop interactive websites. </p>
+        </section>
+    </section>
+    <h2>Trimester 2 Subjects</h2>
+    <section class="tr2-subjects">
+        <section>
+            <h3>CP1407 - Introductory Machine Learning and Data Science</h3>
+            <p>Data Science is the study of the generalizable extraction of knowledge from data. Being a data scientist
+                requires an integrated skill set spanning mathematics, statistics, machine learning, databases and other
+                branches of computer science
+                along with a good understanding of the craft of problem formulation to engineer effective solutions.
+                This subject will introduce students to this rapidly growing field and equip them with some of its basic
+                principles and tools as well
+                as its general mindset. Students will learn concepts, techniques and tools they need to deal with
+                various facets of data science practice, including data collection and integration, exploratory data
+                analysis, utilising various machine
+                learning algorithms for predictive modeling and descriptive modeling, data product creation and
+                evaluation </p>
+        </section>
+        <section>
+            <h3>CP1409 - Operating Systems and Shell Scripting
+            </h3>
+            <p>This module introduces students to modern operating systems (OS) internals and associated security. The
+                main topics covered will include basic OS concepts such as processes, memory management, drivers and
+                file systems. Command line interfaces
+                in Windows and Linux will be introduced. Students will be able to identify shell features and
+                environmental customization and create shell scripts (includes Bash Shell and C shell).
+            </p>
+        </section>
+
+
+    </section>
+
+</article>
+
+<div id="footer">
+    <p>Copyright &copy; IT @ James Cook University</p>
+    <ul>
+        <li><a href="https://twitter.com/itatjcu">IT@JCU on Twitter</a></li>
+        <li><a href="https://www.facebook.com/itatjcu/">IT@JCU on Facebook</a></li>
+        <li><a href="https://github.com/ITatJCU">IT@JCU on GitHub</a></li>
+        <li><a href="https://www.youtube.com/user/ITatJCU">IT@JCU YouTube Channel</a></li>
+        <li><a href="mailto:it@jcu.edu.au">Contact IT@JCU</a></li>
+    </ul>
+</div>
+</body>
+
+</html>
